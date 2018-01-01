@@ -1,13 +1,11 @@
 
+form { margin-top: 20px; }
 form, #results { padding: 0 20px; }
 .item { margin-bottom: 25px; }
-.w100 { width: 100%; }
- body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+.w100 { width: 100%; 
 
-  main {
-    flex: 1 0 auto;
-  }
+}
+h2{
+   font-family: monoton,cursive;
+   size: 20%;
+}
