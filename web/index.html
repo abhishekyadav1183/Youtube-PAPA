@@ -5,36 +5,44 @@
         <meta charset="UTF-8" />					
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Awesome videos!" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet"
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-<div class="row jumbotron">
-    <div class="col-md-12">
-        Abhishek Yadav
-    </div>
-</div>
+    <body >
+        <div class="container">
+       <div class="row card-panel z-depth-5">
+          
+       
 
-        <header>
-            <h1 class="w100 text-center"><a href="index.html">YouTube Viral Search</a></h1>
+        <header class="card-panel hoverable ">
+            <h5 class="center-align " style="font-family: monoton,cursive;"><a href="index.html" class="text-indigo text-darken-3">YouTube Viral Search</a></h5>
         </header>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+       </div>
+</div>
+        <div class="divider"></div>
+        <div class="container">
+            
                 <form action="#">
-                    <p><input type="text" id="search" placeholder="Type something..." autocomplete="off" class="form-control" /></p>
-                    <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>
+                    <p class="card-panel z-depth-3"><input type="text" id="search" placeholder="Type something..." autocomplete="off" class="form-control" /></p>
+                    <p class="center"><input type="submit" value="Search" class="btn waves-effect waves-teal z-depth-5 btn-large pulse"></p>
                 </form>
                 <div id="results"></div>
-            </div>
+            
         </div>
+        
+
         
         <!-- scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/app.js"></script>
         <script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+
+
     </body>
 </html>
 
